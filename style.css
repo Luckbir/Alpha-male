@@ -1,0 +1,28 @@
+/* line 2 to 11 is the common command for csss */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+   /* add pic with background-colo syntax should be" background: [background-color] [background-attachment] [background-image] [background-repeat] [background-position]"*/
+    background:bisque url("C:\Users\JUDHISTHIRA SHINGH\Desktop\html\main-qimg-36b69039435e19cf3919832be196f257-lq.jfif") no-repeat right top ; 
+}
+
+h1{
+    color: hsl(333, 100%, 50%);
+    /*for border*/
+    border-style: dotted;
+    border-color:rgb(128, 41, 0);
+}
+/* # is use while using any 'id' */
+#pra{
+    color: blueviolet;
+    background-color:rgb(0,3004,250);
+    /*border-style: groove;*/
+    border-style: inset;
+    /*for border color*/
+    border-color: black;
+}

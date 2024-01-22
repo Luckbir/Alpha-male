@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://img.freepik.com/premium-photo/maldivian-paradise-captivating-travel-destination-photo_1009814-1174.jpg);
+    background-size: 100%;
+}
+#main{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 60px;
+   
+}
+
+#nev1 {
+    width: 60%;
+    display: flex;
+    text-transform: capitalize;
+    align-content: center;
+    justify-content: space-between;
+    font-size: 20px;
+   /* border-bottom: 2px solid red;*/
+}
+#nev1 h5{
+  position: relative;
+}
+#nev1 h5::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition-duration: 0.3s;
+}
+#nev1 h5:hover::after{
+    width: 100%;
+}
+#nev h1{
+    font-size: 25px;
+    /*display: flex;
+    text-transform: capitalize;
+    align-content: center;*/
+    color: yellow;
+}
+#main button {
+    background-color: red;
+    border-radius: 60px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    font-weight: 30px;
+    padding: 15px 25px;
+}
+#main i{
+    margin:5px;
+    font-size: 20px;
+}
+#content{
+    position: absolute;
+    top:50%;
+    left:50%;
+    text-transform: capitalize;
+    /*either the top one or the lower one*/
+   transform: translate(-50%,-50%);
+   text-align: center;
+   /*align-items: center;*/
+}
+#content span{
+    letter-spacing:5px;
+    /*margin-bottom: 30%;*/
+    font-weight: 1000;
+    color: white;
+    
+}
+#content h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: white;
+}
+#content button{
+    background-color: red;
+    border-radius: 60px;
+    font-weight: 18px;
+    padding: 15px 25px;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 700;
+}
